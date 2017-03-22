@@ -1,0 +1,139 @@
+/* Mi código CSS */
+
+body {
+    padding-top: 54px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    min-height: 100vh;
+}
+
+
+/*header*/
+
+#header {
+    border-top: solid 2px orange;
+    border-bottom: solid 2px orange;
+}
+
+.logo {
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+
+/*slider*/
+
+#home-carousel .fill {
+    height: 250px;
+}
+
+.imagenes_slider {
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.auto1 {
+    background-image: url("../img/audi_1.jpg");
+}
+
+.auto2 {
+    background-image: url("../img/bentley_1.jpg");
+}
+
+.auto3 {
+    background-image: url("../img/bmw_1.jpg");
+}
+
+.auto4 {
+    background-image: url("../img/audi_2.jpg");
+}
+
+.auto5 {
+    background-image: url("../img/audi_r8.jpg");
+}
+
+
+/*title index*/
+
+.welcome {
+    font-weight: 100;
+}
+
+
+/*footer*/
+
+#footer {
+    background-color: black;
+    padding: 20px 0;
+    border-top: solid 2px orange;
+}
+
+#footer a {
+    color: white;
+}
+
+.autovip-brand {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.footer-col {
+    color: white;
+    padding-top: 15px;
+}
+
+
+/*about us*/
+
+.about-us {
+    padding: 5px;
+    border: solid 2px #E0E0E0;
+}
+
+.about-img {
+    width: 100%
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+.cofounder {
+    color: #9E9E9E;
+}
+
+.filter {
+    border: solid 2px #E0E0E0;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.fotos_carrito {
+    width: 200px;
+    float: left;
+    border: solid 2px #E0E0E0;
+    margin: 5px;
+}
+
+.exchange {
+    text-align: right;
+    padding-top: 25px;
+}
+
+.imagen img {
+    width: 180px;
+    float: left;
+    margin-right: 10px;
+}
+
+.car-info {
+    min-height: 140px;
+}
